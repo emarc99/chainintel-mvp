@@ -62,7 +62,7 @@ class DIMOClient:
 
             if result and 'data' in result:
                 total_count = result['data']['vehicles']['totalCount']
-                logger.info(f"Total vehicles in DIMO network: {total_count}")
+                # logger.info(f"Total vehicles in DIMO network: {total_count}")
                 return total_count
             return None
         except Exception as e:
