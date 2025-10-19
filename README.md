@@ -86,23 +86,8 @@ The dashboard will be available at `http://localhost:3000`
 
 ## 🏗️ Architecture
 
-```
-┌─────────────────────────────────────────────────┐
-│              ChainIntel Wave 1                   │
-├─────────────────────────────────────────────────┤
-│                                                  │
-│  Data Source: DIMO API (GraphQL)                │
-│       ↓                                          │
-│  Backend: Python FastAPI + PostgreSQL           │
-│       ↓                                          │
-│  ML Engine: Prophet (time-series forecasting)   │
-│       ↓                                          │
-│  Frontend: Next.js 14 + Chart.js + Tailwind     │
-│       ↓                                          │
-│  Dashboard: Real-time analytics visualization   │
-│                                                  │
-└─────────────────────────────────────────────────┘
-```
+![Overall Architecture](./docs/chainintel-architecture.png)
+
 
 ## 🛠️ Tech Stack
 
