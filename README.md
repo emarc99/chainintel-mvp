@@ -2,17 +2,17 @@
 
 ![ChainIntel Banner](https://img.shields.io/badge/DePIN-Analytics-blue) ![Wave 1](https://img.shields.io/badge/Wave-1-green) ![Polygon](https://img.shields.io/badge/Built%20on-Polygon-purple)
 
-**ChainIntel** is the first AI-powered analytics marketplace specifically designed for DePIN (Decentralized Physical Infrastructure) networks. We aggregate data from DIMO, GEODNET, IoTeX, and other networks, apply machine learning models, and deliver actionable insights.
+**ChainIntel** delivers predictive maintenance and real-time operational alerts for DePIN networks. Unlike general analytics platforms (Dune, The Graph), we focus on **AI-powered predictions that prevent failures before they happen** - alerting network operators when nodes will fail, infrastructure needs expansion, or performance degradation is imminent.
 
 ## 🎯 Wave 1 Deliverables (Polygon Buildathon)
 
 This repository contains our **Wave 1 MVP** demonstrating technical feasibility:
 
-✅ **Working data pipeline** - Fetches live data from DIMO Network (140K+ connected vehicles)
-✅ **ML forecasting model** - Prophet-based time-series forecasting with 90% confidence intervals
-✅ **Interactive dashboard** - Real-time visualization of network metrics and growth predictions
-✅ **Professional documentation** - Complete setup instructions and architecture docs
-✅ **Demo video** - 3-minute walkthrough (link below)
+- **Working data pipeline** - Fetches live data from DIMO Network (140K+ connected vehicles)
+- **ML forecasting model** - Prophet-based time-series forecasting with 90% confidence intervals
+- **Interactive dashboard** - Real-time visualization of network metrics and growth predictions
+- **Professional documentation** - Complete setup instructions and architecture docs
+- **Demo video** - 3-minute walkthrough (to be done)
 
 ## 🚀 Quick Start
 
@@ -77,12 +77,12 @@ The dashboard will be available at `http://localhost:3000`
 
 ### Coming Soon (Wave 2+)
 
-- Multi-network support (GEODNET, IoTeX)
-- Smart contract marketplace on Polygon
-- Geographic distribution maps
-- Anomaly detection
-- Real-time alerts
-- White-label analytics
+- **Real Historical Data**: The Graph integration for blockchain-indexed DIMO vehicle mints
+- **Multi-network support**: GEODNET, IoTeX data pipelines
+- **Predictive Maintenance**: ML models predicting node failures 24-48h in advance
+- **Real-time Alerts**: SMS/Email/Discord notifications for critical events
+- **Geographic Optimization**: AI recommendations for optimal node deployment locations
+- **Smart contract marketplace**: Polygon-based analytics marketplace
 
 ## 🏗️ Architecture
 
@@ -210,93 +210,94 @@ npm test  # Coming soon
 
 ---
 
-### **Wave 2 (Weeks 3–4) 🚧 – Multi-Network Integration + Marketplace MVP**
+### **Wave 2 (Weeks 3–4) 🚧 – Real Data + Multi-Network**
 
-* [ ] Add **GEODNET** and **IoTeX** integrations (multi-network data)
-* [ ] Implement three ML analytics: growth forecast, anomaly detection, geo-clustering
-* [ ] Deploy **Marketplace Smart Contract** on **Polygon testnet** (buy/access logic)
-* [ ] Upgrade dashboard for comparative analytics across networks
-* [ ] Publish first purchasable analytics demo product
+* [ ] Integrate **The Graph** to index DIMO vehicle NFT mints on Polygon (real historical data)
+* [ ] Add **GEODNET** and **IoTeX** data integrations
+* [ ] Implement **anomaly detection** ML model for network health monitoring
+* [ ] Build **geographic clustering** analysis for coverage gaps
+* [ ] Deploy basic smart contract on Polygon testnet
+* [ ] Launch free tier with 5 analytics products
 
 ---
 
-### **Wave 3 (Weeks 5–6) 🔒 – Verifiable Analytics (Alpha)**
+### **Wave 3 (Weeks 5–6) 🔒 – Predictive Alerts + Beta Users**
 
-* [ ] Deploy **AnalyticsRegistry.sol** to store hashed proofs of analytics results on Polygon
-* [ ] Prototype **DataStake.sol** for staking verified data providers
-* [ ] Add “**Verified on Polygon**” badge to analytics dashboard
+* [ ] Build **predictive maintenance model** (forecast node failures 24-48h ahead)
+* [ ] Implement **real-time alert system** (Email/Discord notifications)
+* [ ] Deploy **AnalyticsRegistry.sol** for on-chain verification
 * [ ] Automate daily analytics generation (cron/Airflow)
-* [ ] Onboard 3–5 DePIN operators for closed beta testing
+* [ ] Onboard **10-15 beta users** (free tier) for feedback
 
 ---
 
-### **Wave 4 (Weeks 7–8) 💼 – Monetization & User Growth**
+### **Wave 4 (Weeks 7–8) 💼 – Product Refinement + Growth**
 
-* [ ] Acquire first paying customer ($500–$2K MRR)
-* [ ] Launch **10+ analytics products** (ROI optimizer, churn prediction, etc.)
-* [ ] Release API + SDK for developer integrations
-* [ ] Publish case study: “How [Network] saved $X using ChainIntel”
-* [ ] Prototype **white-label dashboards** for operators
-
----
-
-### **Wave 5 (Weeks 9–10) 🎤 – Pitch & Fundraise**
-
-* [ ] Prepare investor **pitch deck** with traction metrics
-* [ ] Create **demo video** featuring real customer impact
-* [ ] Announce partnership with 1 major DePIN network
-* [ ] Draft **tokenomics + staking whitepaper**
-* [ ] Present at **Polygon Buildathon Demo Day**
+* [ ] Expand to **25-30 active beta users** across multiple networks
+* [ ] Launch **10+ analytics products** (ROI optimizer, geographic gaps, etc.)
+* [ ] Release public **API + SDK** for developer integrations
+* [ ] Collect testimonials and usage metrics for investor materials
+* [ ] Build premium tier feature set (advanced alerts, custom ML models)
 
 ---
 
-### **Wave 6 (Weeks 11–12) 🚀 – Post-Funding Scale**
+### **Wave 5 (Weeks 9–10) 🎤 – Fundraising Preparation**
 
-* [ ] Hire backend engineer + BD lead
+* [ ] Prepare investor **pitch deck** with user traction (30+ active users)
+* [ ] Create **demo video** showcasing predictive alerts preventing real failures
+* [ ] Announce **partnership with 1 major DePIN network** (official analytics provider)
+* [ ] Draft tokenomics framework (if pursuing token model)
+* [ ] Begin conversations with seed investors ($500K-$1M target)
+
+---
+
+### **Wave 6 (Weeks 11–12) 🚀 – Monetization Launch**
+
+* [ ] Launch **paid tier** with advanced predictive alerts ($50-$200/month)
+* [ ] Acquire **first 3-5 paying customers** (proof of willingness to pay)
 * [ ] Integrate **10+ DePIN networks** (Helium, Render, Filecoin, Akash)
-* [ ] Migrate `AnalyticsRegistry.sol` + `DataStake.sol` to **Polygon mainnet**
-* [ ] Expand staking mechanics and verification incentives
-* [ ] Reach **10+ paying customers**
+* [ ] Deploy mainnet smart contracts on Polygon
+* [ ] Hire first team member (backend engineer or BD) if funded
 
 ---
 
-### **Wave 7 (Weeks 13–14) 🏢 – Enterprise & Compliance**
+### **Wave 7 (Weeks 13–14) 🏢 – Scale + Enterprise Features**
 
-* [ ] Launch **white-label platform** for enterprise clients
-* [ ] Add **custom analytics builder** (self-serve reports)
-* [ ] Implement **SOC2 / GDPR** compliance features
-* [ ] Establish **enterprise SLA (99.9% uptime)**
-* [ ] Secure first enterprise customer ($10K+/month)
+* [ ] Grow to **10-15 paying customers** ($500-$2K MRR)
+* [ ] Launch **white-label platform** prototype for network operators
+* [ ] Add **custom analytics builder** for self-serve reports
+* [ ] Begin SOC2/GDPR compliance process
+* [ ] Establish customer success processes and SLAs
 
 ---
 
-### **Wave 8 (Weeks 15–16) 🌐 – Cross-Chain Expansion**
+### **Wave 8 (Weeks 15–16) 🌐 – Cross-Chain + Advanced AI**
 
-* [ ] Add support for **Solana, Base, Arbitrum, Ethereum**
+* [ ] Add support for **Solana, Base, Arbitrum** DePIN projects
 * [ ] Build **cross-chain analytics dashboard**
-* [ ] Develop blockchain-agnostic data layer
-* [ ] Integrate **20+ DePIN networks**
-* [ ] Reach **$50K+ MRR**
+* [ ] Launch **AI chatbot** for natural language queries ("when will my network reach 200K nodes?")
+* [ ] Integrate **15-20 total DePIN networks**
+* [ ] Target **$5K-$10K MRR** from 15-20 paying customers
 
 ---
 
-### **Wave 9 (Weeks 17–18) 🤖 – AI-Powered Optimization**
+### **Wave 9 (Weeks 17–18) 🤖 – Advanced Features + Partnerships**
 
-* [ ] Launch **AI assistant chatbot** (“Ask ChainIntel anything”)
-* [ ] Deploy **automated optimization recommendations**
-* [ ] Implement **predictive alerts** for maintenance and churn
-* [ ] Add **benchmark comparisons** vs competitors
-* [ ] Grow to **30+ paying customers**
+* [ ] Announce **official partnership** with major DePIN network (DIMO/Helium/GEODNET)
+* [ ] Launch **automated optimization recommendations** (AI suggests node placements)
+* [ ] Build **benchmark comparisons** dashboard (compare networks)
+* [ ] Create case studies showing **ROI from using ChainIntel**
+* [ ] Grow to **25-30 paying customers** ($10K-$15K MRR)
 
 ---
 
-### **Wave 10 (Weeks 19–20) 💰 – Series A Readiness**
+### **Wave 10 (Weeks 19–20) 💰 – Fundraising Execution**
 
-* [ ] Achieve **$100K+ MRR** and **40+ customers**
-* [ ] Form **5+ strategic partnerships** with major DePIN networks
-* [ ] Finalize **Series A pitch deck + financial projections**
-* [ ] Expand into **RWA / supply-chain analytics** verticals
-* [ ] Demo at **TOKEN2049 / global Polygon stage**
+* [ ] Target **$20K-$30K MRR** with **35-40 paying customers**
+* [ ] Complete **Series A pitch deck** with 6-month financial projections
+* [ ] Secure **letters of intent** from 2-3 major DePIN networks
+* [ ] Begin formal **Series A fundraising process** ($3M-$5M target)
+* [ ] Present at major conference (TOKEN2049, ETHDenver, or Polygon event)
 
 ---
 
@@ -323,7 +324,12 @@ Solo developer project for Polygon Buildathon: From Launch to Fundraising
 
 ## 💡 Vision
 
-ChainIntel aims to become the **Bloomberg Terminal for DePIN infrastructure**. Every network operator will use our analytics to make data-driven decisions about network expansion, node optimization, and infrastructure planning.
+ChainIntel aims to become **the predictive operations platform preventing DePIN infrastructure failures before they happen**. Unlike Dune/The Graph (historical data), we focus on **AI-powered predictions** that help operators:
+
+- **Prevent node failures** 24-48 hours before they occur
+- **Optimize infrastructure expansion** with geographic gap analysis
+- **Reduce operational costs** through predictive maintenance
+- **Make data-driven decisions** backed by ML forecasts
 
 **Built on Polygon** for scalability and deep integration with the DePIN ecosystem.
 
